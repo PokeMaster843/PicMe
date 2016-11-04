@@ -1,4 +1,4 @@
-var cnv = document.getElementById("site");
+var cnv = document.getElementById("mainPage");
 var ctx = cnv.getContext("2d");
 
 var update = setInterval(function() {
