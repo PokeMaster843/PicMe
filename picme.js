@@ -1,7 +1,7 @@
 var cnv = document.getElementById("mainPage");
 var ctx = cnv.getContext("2d");
 
-var update = setInterval(function() {
+window.onload = function() {
   
   var grd = ctx.createLinearGradient(0, 0, 0, 160);
   grd.addColorStop(0, "#99b3ff");
@@ -10,4 +10,4 @@ var update = setInterval(function() {
   ctx.fillStyle = grd;
   ctx.fillRect(0, 0, cnv.width, 160);
   
-}, 1000*2);
+}
