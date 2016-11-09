@@ -16,3 +16,4 @@ var home = ctx.rect(0, 0, 100, 80);
 var profile = ctx.rect(100, 0, 100, 80);
 var settings = ctx.rect(200, 0, 100, 80);
 var friends = ctx.rect(300, 0, 100, 80);
+ctx.stroke();
