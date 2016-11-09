@@ -12,9 +12,9 @@ ctx.fillStyle = grd;
 ctx.fillRect(0, 0, cnv.width - scrollbar, 80);
 
 ctx.beginPath();
-ctx.strokeStyle = "#000000";
-var home = ctx.rect(0, 0, 100, 80);
-var profile = ctx.rect(100, 0, 100, 80);
-var settings = ctx.rect(200, 0, 100, 80);
-var friends = ctx.rect(300, 0, 100, 80);
+ctx.strokeStyle = "#001a66";
+var home = ctx.rect(0, 1, 160, 79);
+var profile = ctx.rect(160, 1, 160, 79);
+var settings = ctx.rect(320, 1, 160, 79);
+var friends = ctx.rect(480, 1, 160, 79);
 ctx.stroke();
