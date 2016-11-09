@@ -2,6 +2,8 @@ var cnv = document.getElementById("mainPage");
 var ctx = cnv.getContext("2d");
 var grd = ctx.createLinearGradient(0, 0, 0, 160);
 
+cnv.offsetLeft = 0;
+cnv.offsetTop = 0;
 cnv.width = window.innerWidth;
 cnv.height = window.innerHeight;
 grd.addColorStop(0, "#3366ff");
