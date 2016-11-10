@@ -5,9 +5,9 @@ var scrollbar = 20;
 
 cnv.width = window.innerWidth;
 cnv.height = window.innerHeight;
-grd.addColorStop(0, "#3366ff");
+grd.addColorStop(0, "#0039e6");
 grd.addColorStop(0.5, "#0033cc");
-grd.addColorStop(1, "#3366ff");
+grd.addColorStop(1, "#0039e6");
 ctx.fillStyle = grd;
 ctx.fillRect(0, 0, cnv.width - scrollbar, 80);
 
